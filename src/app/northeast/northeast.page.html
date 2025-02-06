@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>สถานที่ท่องเที่ยวในภาคตะวันออกเฉี่ยงเหนือ</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="medium">สถานที่ท่องเที่ยวในภาคตะวันออกเฉี่ยงเหนือ</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div class="ion-text-center"><p>อุทยานประวัติศาสตร์พนมรุ้ง จังหวัดบุรีรัมย์</p></div>
+  <div class ="center">
+    <img src="https://www.agoda.com/wp-content/uploads/2022/12/Phanom-Rung-Historical-Park-Buriram-1024x678.jpg" >
+  </div>
+  <br>
+  <div class="ion-text-center"><p>หาดชมดาว จังหวัดอุบลราชธานี </p></div>
+  <div class ="center">
+    <img src="https://dmc.tatdataapi.io/assets/786da816-80db-420f-a981-f2242f4fd0df.jpeg" >
+  </div>
+  <br>
+  <div class="ion-text-center"><p>พระมหาธาตุแก่นนคร จังหวัดขอนแก่น</p></div>
+  <div class ="center">
+    <img src="https://img.kapook.com/u/2018/sutasinee/04/q16.jpg" >
+  </div>
+  <br>
+  <div class="button-right">
+    <ion-button color="primary" (click)="goToWest()">ถัดไป</ion-button>
+  </div><br><br>
+  <div class = "button-left">
+    <ion-button color="tertiary" (click)="goToNorth()">ย้อนกลับ</ion-button>
+  </div>
+</ion-content>

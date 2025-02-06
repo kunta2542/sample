@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>สถานที่ท่องเที่ยวในภาคใต้</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="medium">สถานที่ท่องเที่ยวในภาคใต้</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div class="ion-text-center"><p>จุดชมวิวเสม็ดนางชี จังหวัดพังงา</p></div>
+  <div class ="center">
+    <img src="https://img.kapook.com/u/2017/Tanapol/travel/june2017/paktai/paktai3.jpg" >
+  </div>
+  <br>
+  <div class="ion-text-center"><p>เมืองเก่าสงขลา จังหวัดสงขลา</p></div>
+  <div class ="center">
+    <img src="https://img.kapook.com/u/2017/Tanapol/travel/june2017/paktai/paktai5.jpg" >
+  </div>
+  <br>
+  <div class="ion-text-center"><p>เกาะเขาใหญ่ จังหวัดสตูล</p></div>
+  <div class ="center">
+    <img src="https://img.kapook.com/u/2017/Tanapol/travel/june2017/paktai/paktai4.jpg" >
+  </div>
+  <br>
+  <div class="button-right">
+    <ion-button color="primary" (click)="goHome()">หน้าหลัก</ion-button>
+  </div><br><br>
+  <div class = "button-left">
+    <ion-button color="tertiary" (click)="goToEast()">ย้อนกลับ</ion-button>
+  </div>
+</ion-content>

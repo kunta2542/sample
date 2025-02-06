@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="medium">สถานที่ท่องเที่ยวในประเทศไทย</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div class ="center">
+    <img src="https://admin.bangkokbanksme.com/uploads/topics/16406722425274.jpg" >
+  </div>
+   <br>
+  <ion-button expand="block" color="primary" (click)="goToCentral()">สถานที่ท่องเที่ยวในภาคกลาง</ion-button>
+  <br>
+  <ion-button expand="block" color="secondary" (click)="goToNort()">สถานที่ท่องเที่ยวในภาคเหนือ</ion-button>
+  <br>
+  <ion-button expand="block" color="tertiary" (click)="goToNortEast()">สถานที่ท่องเที่ยวในภาคตะวันออกเฉี่ยงเหนือ</ion-button>
+  <br>
+  <ion-button expand="block" color="primary" (click)="goToWest()">สถานที่ท่องเที่ยวในภาคตะวันตก</ion-button>
+  <br>
+  <ion-button expand="block" color="secondary" (click)="goToEast()">สถานที่ท่องเที่ยวในภาคตะวันออก</ion-button>
+  <br>
+  <ion-button expand="block" color="tertiary" (click)="goToSouth()">สถานที่ท่องเที่ยวในภาคใต้</ion-button>
+</ion-content>

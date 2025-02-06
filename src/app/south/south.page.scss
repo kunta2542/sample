@@ -1,0 +1,21 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+.ion-text-center {
+  text-align: center
+}
+.button-right {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+.button-left {
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+
+}

@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>สถานที่ท่องเที่ยวในภาคตะวันออก</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="medium">สถานที่ท่องเที่ยวในภาคตะวันออก</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div class="ion-text-center"><p>พัทยา จังหวัดชลบุรี</p></div>
+  <div class ="center">
+    <img src="https://s359.kapook.com//pagebuilder/32574f00-5f3d-49cc-8b92-cd6fdcf6f0c6.jpg" >
+  </div>
+  <br>
+  <div class="ion-text-center"><p>วัดแก้วพิจิตร จังหวัดปราจีนบุรี</p></div>
+  <div class ="center">
+    <img src="https://s359.kapook.com//pagebuilder/54104cd3-b916-4e92-bf9f-1f21b914404f.jpg" >
+  </div>
+  <br>
+  <div class="ion-text-center"><p>หอดูดาวเฉลิมพระเกียรติ 7 รอบพระชนมพรรษา จังหวัดฉะเชิงเทรา</p></div>
+  <div class ="center">
+    <img src="https://s359.kapook.com//pagebuilder/34a1fe8d-efcf-4adb-8d2a-f3d07be19ce3.jpg" >
+  </div>
+  <br>
+  <div class="button-right">
+    <ion-button color="primary" (click)="goToSouth()">ถัดไป</ion-button>
+  </div><br><br>
+  <div class = "button-left">
+    <ion-button color="tertiary" (click)="goToWest()">ย้อนกลับ</ion-button>
+  </div>
+</ion-content>

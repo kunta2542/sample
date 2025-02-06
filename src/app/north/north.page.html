@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>สถานที่ท่องเที่ยวในภาคเหนือ</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="medium">สถานที่ท่องเที่ยวในภาคเหนือ</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div class="ion-text-center"><p>อุทยานแห่งชาติดอยอินทนนท์ จังหวัดเชียงใหม่</p></div>
+  <div class ="center">
+    <img src="https://s359.kapook.com//pagebuilder/1caf2387-adcd-4100-ae25-11f8542f1f34.jpg" >
+  </div>
+  <br>
+  <div class="ion-text-center"><p>วัดพุทธบาทสุทธาวาส จังหวัดลำปาง </p></div>
+  <div class ="center">
+    <img src="https://dmc.tatdataapi.io/assets/39653641-0f81-44d8-8250-7e37a8d8719a.jpeg" >
+  </div>
+  <br>
+  <div class="ion-text-center"><p>ดอยช้าง จังหวัดเชียงราย</p></div>
+  <div class ="center">
+    <img src="https://s359.kapook.com//pagebuilder/ae0c142b-7d1d-4be3-b0a2-e81ec6a46c9b.jpg" >
+  </div>
+  <br>
+  <div class="button-right">
+    <ion-button color="primary" (click)="goToNorthEast()">ถัดไป</ion-button>
+  </div><br><br>
+  <div class = "button-left">
+    <ion-button color="tertiary" (click)="goToCentral()">ย้อนกลับ</ion-button>
+  </div>
+</ion-content>

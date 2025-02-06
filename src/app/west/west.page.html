@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>สถานที่ท่องเที่ยวในภาคตะวันตก</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="medium">สถานที่ท่องเที่ยวในภาคตะวันตก</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div class="ion-text-center"><p>อุทยานแห่งชาติเอราวัณ จังหวัดกาญจนบุรี</p></div>
+  <div class ="center">
+    <img src="https://geographyofthailand.wordpress.com/wp-content/uploads/2016/09/16223-7x3.jpg?w=594&h=254" >
+  </div>
+  <br>
+  <div class="ion-text-center"><p>หาดชมดาว ตลาดน้ำดำเนินสะดวก จังหวัดราชบุรี </p></div>
+  <div class ="center">
+    <img src="https://geographyofthailand.wordpress.com/wp-content/uploads/2016/09/e0b895e0b8a5e0b8b2e0b894e0b899e0b989e0b8b3e0b894e0b8b3e0b980e0b899e0b8b4e0b899e0b8aae0b8b0e0b894e0b8a7e0b8815_1434106957.jpg?w=593" >
+  </div>
+  <br>
+  <div class="ion-text-center"><p>อุทยานแห่งชาติกุยบุรี จังหวัดประจวบคีรีขันธ์</p></div>
+  <div class ="center">
+    <img src="https://img.kapook.com/u/2018/sutasinee/04/q16.jpg" >
+  </div>
+  <br>
+  <div class="button-right">
+    <ion-button color="primary" (click)="goToEast()">ถัดไป</ion-button>
+  </div><br><br>
+  <div class = "button-left">
+    <ion-button color="tertiary" (click)="goToNorthEast()">ย้อนกลับ</ion-button>
+  </div>
+</ion-content>

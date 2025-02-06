@@ -7,13 +7,28 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public appPages = [
-    { title: 'Inbox', url: '/folder/inbox', icon: 'mail' },
-    { title: 'Outbox', url: '/folder/outbox', icon: 'paper-plane' },
-    { title: 'Favorites', url: '/folder/favorites', icon: 'heart' },
-    { title: 'Archived', url: '/folder/archived', icon: 'archive' },
-    { title: 'Trash', url: '/folder/trash', icon: 'trash' },
-    { title: 'Spam', url: '/folder/spam', icon: 'warning' },
+    { title: 'หน้าหลัก',
+      url: '/home',
+      icon: 'home' },
+    { title: 'ภาคกลาง',
+      url: '/central',
+      icon: 'location' },
+    { title: 'ภาคเหนือ',
+      url: '/north',
+      icon: 'location' },
+    { title: 'ภาคตะวันออกเฉี่ยงเหนือ',
+      url: '/northeast',
+      icon: 'location' },
+    { title: 'ภาคตะวันตก',
+      url: '/west',
+      icon: 'location' },
+    { title: 'ภาคตะวันออก',
+      url: '/east',
+      icon: 'location' },
+    { title: 'ภาคใต้',
+      url: '/south',
+      icon: 'location' }
   ];
-  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
+
   constructor() {}
 }
